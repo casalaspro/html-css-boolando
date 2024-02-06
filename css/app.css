@@ -27,3 +27,8 @@ li, ul, menu{
   max-width: 1024px;
   margin: 0 auto;
 }
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
