@@ -33,6 +33,10 @@ li, ul, menu{
   height: 70px;
 }
 
+.debug .card{
+  height: 500px;
+}
+
 /* UTILITIES */
 
 .white{
@@ -41,6 +45,10 @@ li, ul, menu{
 
 .bg-company{
   background-color: #FE6900;
+}
+
+.col-4{
+  width: calc(4 * 100% / 12);
 }
 
 /* LAYOUT */
