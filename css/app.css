@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
 /* RESET */
 
 *{
@@ -53,6 +56,10 @@ li, ul, menu{
 
 /* LAYOUT */
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container{
   max-width: 1024px;
   margin: 0 auto;
@@ -64,9 +71,7 @@ li, ul, menu{
   flex-wrap: wrap;
 }
 
-svg{
-  height: 100%;
-}
+/* HEADER */
 
 .header .row{
   align-items: center;
