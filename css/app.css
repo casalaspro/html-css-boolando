@@ -21,8 +21,26 @@ li, ul, menu{
   border: 1px solid black;
 }
 
-.debug .border-red{
-  border: solid 1px red;
+.debug .border-black{
+  border: solid 1px black;
+}
+
+.debug .header--logo{
+  width: 150px;
+}
+
+.debug .header .row{
+  height: 70px;
+}
+
+/* UTILITIES */
+
+.white{
+  color: white;
+}
+
+.bg-company{
+  background-color: #FE6900;
 }
 
 /* LAYOUT */
@@ -39,5 +57,13 @@ li, ul, menu{
 
 svg{
   height: 100%;
-  display: inline-block;
+}
+
+.header .row{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header li{
+  display: inline;
 }
