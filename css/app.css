@@ -44,7 +44,7 @@ img{
   /* height: 70px; */
 }
 
-.debug .card{
+.debug .card--image{
   height: 450px;
 }
 
@@ -108,8 +108,14 @@ body{
 
 /* CARDS */
 
-.card{
+.card--image{
   height: 450px;
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
