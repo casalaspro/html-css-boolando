@@ -18,6 +18,10 @@ li, ul, menu{
   list-style: none;
 }
 
+img{
+  width: 100%;
+}
+
 /* DEBUG */
 
 .debug .container{
@@ -26,6 +30,10 @@ li, ul, menu{
 
 .debug .border-black{
   border: solid 1px black;
+}
+
+.debug .border-white{
+  border: 1px solid white;
 }
 
 .debug .header--logo{
@@ -37,7 +45,7 @@ li, ul, menu{
 }
 
 .debug .card{
-  height: 500px;
+  height: 450px;
 }
 
 /* UTILITIES */
@@ -48,6 +56,10 @@ li, ul, menu{
 
 .bg-company{
   background-color: #FE6900;
+}
+
+.bg-dark{
+  background-color: black;
 }
 
 .col-4{
@@ -63,7 +75,7 @@ body{
 .container{
   max-width: 1024px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 30px 20px;
 }
 
 .row{
@@ -81,6 +93,25 @@ body{
 .header li{
   display: inline;
 }
+
+.categories a{
+  font-weight: 700;
+}
+
+.header i{
+  margin-right: 5px;
+}
+
+.header .header--logo{
+  width: 150px;
+}
+
+/* CARDS */
+
+.card{
+  height: 450px;
+}
+
 
 /* FOOTER */
 .footer .row{
