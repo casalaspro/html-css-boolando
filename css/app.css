@@ -14,3 +14,16 @@ a{
 li, ul, menu{
   list-style: none;
 }
+
+/* DEBUG */
+
+.debug .container{
+  border: 1px solid black;
+}
+
+/* LAYOUT */
+
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
