@@ -75,3 +75,12 @@ svg{
 .header li{
   display: inline;
 }
+
+/* FOOTER */
+footer .row{
+  justify-content: space-between;
+}
+
+footer .foot--legal-info li{
+  display: inline-block;
+}
