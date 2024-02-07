@@ -146,7 +146,7 @@ body{
   z-index: -5;
 }
 
-.card--image .favorites-icon{
+.favorites-icon{
   padding: 15px;
   background-color: white;
   position: absolute;
@@ -158,21 +158,21 @@ body{
   color: red;
 }
 
-.price .price-text{
+.price-text{
   margin-right: 5px;
   font-size: small;
 }
 
-.price-text.price-old{
+.price-old{
   text-decoration: line-through;
 }
 
-span.price-now {
+.price-now {
   color: red;
   font-weight: 600;
 }
 
-.card--image .badges .badge{
+.badge{
   padding: 5px;
 }
 
@@ -182,11 +182,15 @@ span.price-now {
   left: 0;
 }
 
-.badges .badge.discount-percentage{
+.brand-title{
+  font-weight: 100;
+}
+
+.discount-percentage{
   background-color: red;
 }
 
-.badges .badge.eco-badge{
+.eco-badge{
   background-color: green;
 }
 
@@ -195,6 +199,6 @@ span.price-now {
   justify-content: space-between;
 }
 
-.footer .foot--legal-info li{
+.foot--legal-info li{
   display: inline-block;
 }
