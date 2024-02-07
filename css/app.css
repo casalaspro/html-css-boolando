@@ -48,6 +48,10 @@ img{
   height: 450px;
 }
 
+.debug .card--image .badges .badge{
+  background-color: aqua;
+}
+
 /* UTILITIES */
 
 .white{
@@ -108,8 +112,39 @@ body{
 
 /* CARDS */
 
+.card{
+  padding: 10px;
+}
+
+.card:nth-child(1){
+  padding-left: 0px;
+}
+
 .card--image{
   height: 450px;
+  position: relative;
+}
+
+.card--image .favorites-icon{
+  padding: 15px;
+  background-color: #FE6900;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+.price .price-text{
+  margin-right: 5px;
+  font-size: small;
+}
+
+.price-text.price-old{
+  text-decoration: line-through;
+}
+
+span.price-now {
+  color: red;
+  font-weight: 600;
 }
 
 .card img{
@@ -118,6 +153,23 @@ body{
   object-fit: cover;
 }
 
+.card--image .badges .badge{
+  padding: 5px;
+}
+
+.card--image .badges{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.badges .badge.discount-percentage{
+  background-color: red;
+}
+
+.badges .badge.eco-badge{
+  background-color: green;
+}
 
 /* FOOTER */
 .footer .row{
