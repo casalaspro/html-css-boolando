@@ -148,10 +148,14 @@ body{
 
 .card--image .favorites-icon{
   padding: 15px;
-  background-color: #FE6900;
+  background-color: white;
   position: absolute;
   top: 8px;
   right: 0;
+}
+
+.favorites-icon:hover{
+  color: red;
 }
 
 .price .price-text{
